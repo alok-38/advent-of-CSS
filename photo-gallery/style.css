@@ -22,6 +22,27 @@ section {
     height: 260px;
 }
 
+/* One up section */
+.one-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.one-up article {
+    width: 99%;
+    height: 255px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.one-up article img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
 /* Two columns for tablet */
 @media (max-width: 1024px) {
     main {
